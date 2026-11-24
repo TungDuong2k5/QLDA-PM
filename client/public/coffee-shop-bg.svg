@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf1de"/>
+      <stop offset="100%" stop-color="#f6dfc0"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe3f7"/>
+      <stop offset="100%" stop-color="#eaf6fd"/>
+    </linearGradient>
+    <linearGradient id="counter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c98a4f"/>
+      <stop offset="100%" stop-color="#a5652f"/>
+    </linearGradient>
+    <linearGradient id="counterFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a5a35"/>
+      <stop offset="100%" stop-color="#6e4426"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe9b8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffe9b8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6da" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fff6da" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#wall)"/>
+
+  <!-- arched window -->
+  <g>
+    <path d="M 620 60 Q 620 -20 700 -20 L 900 -20 Q 980 -20 980 60 L 980 460 L 620 460 Z" fill="url(#sky)" stroke="#e8c9a0" stroke-width="14"/>
+    <circle cx="900" cy="120" r="90" fill="url(#sun)"/>
+    <circle cx="900" cy="120" r="34" fill="#fff3cf"/>
+    <path d="M 620 460 L 980 460" stroke="#e8c9a0" stroke-width="14"/>
+    <path d="M 800 -20 L 800 460 M 620 250 L 980 250" stroke="#e8c9a0" stroke-width="8"/>
+    <!-- distant hills -->
+    <path d="M 620 400 Q 720 330 800 380 Q 880 420 980 360 L 980 460 L 620 460 Z" fill="#cbe8c8" opacity="0.8"/>
+  </g>
+
+  <!-- hanging pendant lights -->
+  <g>
+    <line x1="330" y1="0" x2="330" y2="170" stroke="#8a6a4a" stroke-width="4"/>
+    <circle cx="330" cy="195" r="60" fill="url(#glow)"/>
+    <path d="M 300 170 Q 330 150 360 170 L 356 220 Q 330 236 304 220 Z" fill="#3d8bc9"/>
+    <circle cx="330" cy="200" r="10" fill="#fff3cf"/>
+  </g>
+  <g>
+    <line x1="1230" y1="0" x2="1230" y2="140" stroke="#8a6a4a" stroke-width="4"/>
+    <circle cx="1230" cy="165" r="55" fill="url(#glow)"/>
+    <path d="M 1202 140 Q 1230 122 1258 140 L 1254 186 Q 1230 200 1206 186 Z" fill="#2563a0"/>
+    <circle cx="1230" cy="170" r="9" fill="#fff3cf"/>
+  </g>
+
+  <!-- hanging plants -->
+  <g>
+    <line x1="130" y1="0" x2="130" y2="60" stroke="#8a6a4a" stroke-width="4"/>
+    <path d="M 90 55 Q 130 30 170 55 L 160 110 Q 130 128 100 110 Z" fill="#c98a4f"/>
+    <path d="M 130 60 C 70 80 40 150 60 230" fill="none" stroke="#6fa25a" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 130 65 C 190 90 215 160 195 235" fill="none" stroke="#7fb56a" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 130 62 C 130 140 130 190 130 250" fill="none" stroke="#8fc47a" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g>
+    <line x1="1480" y1="0" x2="1480" y2="50" stroke="#8a6a4a" stroke-width="4"/>
+    <path d="M 1440 45 Q 1480 22 1520 45 L 1510 96 Q 1480 112 1450 96 Z" fill="#a5652f"/>
+    <path d="M 1480 50 C 1420 72 1400 140 1425 210" fill="none" stroke="#6fa25a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M 1480 52 C 1540 78 1560 145 1540 215" fill="none" stroke="#7fb56a" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- floating steam / bean accents -->
+  <g opacity="0.55" fill="none" stroke="#c98a4f" stroke-width="6" stroke-linecap="round">
+    <path d="M 480 260 Q 460 230 480 200 Q 500 170 480 140"/>
+    <path d="M 520 270 Q 500 240 520 210 Q 540 180 520 150"/>
+  </g>
+  <g opacity="0.5" fill="#a5652f">
+    <ellipse cx="1080" cy="300" rx="10" ry="7"/>
+    <ellipse cx="1110" cy="330" rx="8" ry="6"/>
+    <ellipse cx="1050" cy="335" rx="7" ry="5"/>
+  </g>
+
+  <!-- back shelf with jars -->
+  <g>
+    <rect x="1060" y="460" width="360" height="14" fill="#c98a4f"/>
+    <rect x="1090" y="410" width="46" height="50" rx="6" fill="#e8c9a0" stroke="#a5652f" stroke-width="3"/>
+    <rect x="1150" y="400" width="46" height="60" rx="6" fill="#f0d9b5" stroke="#a5652f" stroke-width="3"/>
+    <rect x="1210" y="415" width="46" height="45" rx="6" fill="#e8c9a0" stroke="#a5652f" stroke-width="3"/>
+    <rect x="1330" y="405" width="50" height="55" rx="8" fill="#8fbf7f" opacity="0.85"/>
+  </g>
+
+  <!-- counter -->
+  <rect x="0" y="620" width="1600" height="40" fill="url(#counter)"/>
+  <rect x="0" y="660" width="1600" height="240" fill="url(#counterFront)"/>
+  <rect x="0" y="660" width="1600" height="10" fill="#5a3a1f" opacity="0.5"/>
+
+  <!-- espresso machine (left of counter) -->
+  <g>
+    <rect x="140" y="540" width="180" height="80" rx="10" fill="#2c2c2a"/>
+    <rect x="150" y="500" width="60" height="46" rx="6" fill="#3d3d3a"/>
+    <rect x="230" y="500" width="60" height="46" rx="6" fill="#3d3d3a"/>
+    <circle cx="180" cy="580" r="8" fill="#e8c9a0"/>
+    <circle cx="260" cy="580" r="8" fill="#e8c9a0"/>
+    <rect x="150" y="610" width="160" height="10" fill="#1e1e1c"/>
+  </g>
+
+  <!-- cup stack + menu board (right of counter) -->
+  <g>
+    <rect x="1240" y="520" width="230" height="110" rx="10" fill="#3d3428"/>
+    <rect x="1256" y="536" width="198" height="78" rx="6" fill="#4a4033"/>
+    <circle cx="1290" cy="560" r="4" fill="#f6dfc0" opacity="0.8"/>
+    <rect x="1310" y="552" width="120" height="8" rx="4" fill="#f6dfc0" opacity="0.6"/>
+    <rect x="1310" y="572" width="90" height="8" rx="4" fill="#f6dfc0" opacity="0.5"/>
+    <rect x="1310" y="592" width="105" height="8" rx="4" fill="#f6dfc0" opacity="0.5"/>
+  </g>
+
+  <!-- coffee cups on counter -->
+  <g>
+    <path d="M 480 560 L 470 610 Q 470 622 484 622 L 536 622 Q 550 622 550 610 L 540 560 Z" fill="#ffffff" stroke="#dcd3c4" stroke-width="3"/>
+    <ellipse cx="510" cy="560" rx="30" ry="9" fill="#6a4326"/>
+    <path d="M 550 575 Q 575 578 572 598 Q 570 612 548 608" fill="none" stroke="#dcd3c4" stroke-width="7"/>
+  </g>
+  <g>
+    <path d="M 600 575 L 592 615 Q 592 624 602 624 L 642 624 Q 652 624 652 615 L 644 575 Z" fill="#3d8bc9"/>
+    <ellipse cx="622" cy="575" rx="24" ry="7" fill="#2c6693"/>
+  </g>
+  <g>
+    <path d="M 900 565 L 891 612 Q 891 622 902 622 L 950 622 Q 961 622 961 612 L 952 565 Z" fill="#ffffff" stroke="#dcd3c4" stroke-width="3"/>
+    <ellipse cx="926" cy="565" rx="27" ry="8" fill="#6a4326"/>
+  </g>
+
+  <!-- pastry display jar -->
+  <g>
+    <ellipse cx="760" cy="628" rx="70" ry="14" fill="#e8c9a0" opacity="0.6"/>
+    <path d="M 700 560 Q 700 540 720 540 L 800 540 Q 820 540 820 560 L 820 615 Q 820 628 800 628 L 720 628 Q 700 628 700 615 Z" fill="#eaf6fd" opacity="0.55" stroke="#cfe4f5" stroke-width="3"/>
+    <circle cx="735" cy="595" r="14" fill="#d9a066"/>
+    <circle cx="765" cy="600" r="16" fill="#c98a4f"/>
+    <circle cx="795" cy="592" r="12" fill="#e8b978"/>
+  </g>
+
+  <!-- soft foreground vignette for text contrast on the sides -->
+  <rect x="0" y="0" width="1600" height="900" fill="url(#glow)" opacity="0.12"/>
+</svg>
